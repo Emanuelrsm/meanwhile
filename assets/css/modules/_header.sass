@@ -1,0 +1,84 @@
+header
+  content: ""
+  position: relative
+  top: 0
+  width: 100%
+  height: 100%
+  background: url(../img/277H2.jpg)
+  background-size: cover
+
+.wrapper
+  height: 100vh
+
+  .logo
+    +size(50px)
+    float: left
+    margin: 2% 0 0 2%
+
+  nav
+    float: right
+    margin: 3% 4% 0 0
+
+    a
+      margin-left: 20px
+      color: rgba(59, 70, 92, 0.8)
+      font:
+        size: 20px
+        weight: 800
+
+      &:hover
+        color: #3e4450
+
+  h1
+    text-align: center
+    font:
+      size: 4vw
+      weight: 800
+    color: #f2f2de
+    /*text-shadow: 4px 4px 4px rgb(193, 203, 211)*/
+    /*color: rgb(92, 119, 148)*/
+    text-transform: uppercase
+    letter-spacing: 0.1em
+    margin-bottom: 15px
+
+    clear: both
+    padding-top: 4%
+
+
+    span
+      display: inline-block
+      padding: 0.5em
+      border-top: rgb(193, 203, 211) solid 10px
+      border-bottom: rgb(193, 203, 211) solid 10px
+
+  .slogan
+    color: rgba(59, 70, 92, 0.6)
+    text-align: center
+    font:
+      weight: 800
+      color: white
+    text-transform: uppercase
+    letter-spacing: 0.05%
+
+  .scroll
+    +size(50px)
+    margin: 0 auto
+
+
+@media screen and (max-width: 500px)
+  .wrapper
+    .logo
+      +size(25px)
+
+    nav
+      margin: 5% 5% 0 0
+      a
+        font-size: 15px
+        margin-left: 5px
+    h1
+      span
+        margin-top: 15%
+        font-size: 30px
+
+    .slogan
+      font-size: 11px

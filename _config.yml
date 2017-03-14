@@ -1,0 +1,15 @@
+# SITE SETTINGS
+title: "M E A N W H I L E"
+email: "emanuelrsm@gmail.com"
+description: "Musicology | | Good Cup of Coffee | | Programming"
+
+# Build settings
+
+markdown: kramdown
+permalink: pretty
+
+port: 3000
+
+sass:
+  sass_dir: assets/css
+  style: :nested

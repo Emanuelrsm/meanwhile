@@ -1,0 +1,39 @@
+footer
+  position: relative
+  content: ""
+  background: url(../img/277HF.jpg) center center
+  background-size: cover
+  height: 12vh
+
+.lock
+  position: absolute
+  width: 100%
+  bottom: 2.1vh
+
+  .logo
+    +size(50px)
+    margin: 0 auto
+
+  .f-wrapper
+    vertical-align: middle
+
+    nav
+      text-align: center
+
+    a
+      margin-left: 20px
+      font:
+        size: 20px
+        weight: 800
+      color: rgba(255, 255, 255, 0.8)
+
+      &:hover
+        color: #3e4450
+
+@media screen and (max-width: 500px)
+  footer
+    .lock
+      .f-wrapper
+        nav
+          a
+            font-size: 15px
